@@ -20,7 +20,7 @@ func catetos(a, b Ponto) (cx, cy float64) {
 	return //return limpo/retorno nomeado
 }
 
-//funcao publica p/ calcular distancia
+// metodo publico p/ calcular distancia
 func Distancia(a, b Ponto) float64 {
 	cx, cy := catetos(a, b)
 	//retornando a raiz quadrada da soma dos quadrados dos catetos
