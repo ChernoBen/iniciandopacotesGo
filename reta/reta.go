@@ -14,7 +14,7 @@ type Ponto struct {
 
 //calcular catetos
 func catetos(a, b Ponto) (cx, cy float64) {
-	//obetendo valores absolutos com pacote math
+	//obetendo valores absolutos com pacote math/note que funcao recebe 2 instancias da struct Ponto
 	cx = math.Abs(b.x - a.x)
 	cy = math.Abs(b.y - a.y)
 	return //return limpo/retorno nomeado
